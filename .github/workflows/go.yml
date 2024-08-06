@@ -26,3 +26,15 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+
+      
+- name: Upload Artifacts
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: |
+          bin/
+          pkg/
+          # 或者具体指定你编译输出的文件路径
+          cmd/myprogram/

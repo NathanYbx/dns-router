@@ -28,7 +28,7 @@ jobs:
       run: go test -v ./...
 
       
-- name: Upload Artifacts
+    - name: Upload Artifacts
       if: always()
       uses: actions/upload-artifact@v3
       with:

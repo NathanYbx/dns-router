@@ -1,0 +1,186 @@
+2024-01-12T22:34:28+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 172.16.10.10 output.txt 24h 24h0m0s} {443 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-12T22:34:28+08:00	INFO	http://localhost:8080
+2024-01-12T22:34:28+08:00	INFO	Starting DNS server at port 53...
+2024-01-12T22:57:47+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 172.16.10.10 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-12T22:57:47+08:00	INFO	Starting DNS server at port 53...
+2024-01-12T22:57:47+08:00	INFO	http://localhost:8090
+2024-01-12T22:59:26+08:00	INFO	client: 127.0.0.1 elapsedTime: 32ms name: www.baidu.com. localDNS:;; opcode: QUERY, status: NOERROR, id: 32845
+;; flags: qr rd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.baidu.com.	IN	 A
+
+;; ANSWER SECTION:
+www.baidu.com.	60	IN	A	110.242.68.4
+
+2024-01-12T22:59:32+08:00	INFO	client: 127.0.0.1 elapsedTime: 9ms  Cache hit for:www.baidu.com.
+2024-01-12T22:59:33+08:00	INFO	client: 127.0.0.1 elapsedTime: 7ms  Cache hit for:www.baidu.com.
+2024-01-13T09:01:03+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 172.16.10.10 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T09:01:03+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T09:01:03+08:00	INFO	http://localhost:8090
+2024-01-13T09:27:33+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T09:27:33+08:00	INFO	http://localhost:8090
+2024-01-13T09:27:33+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T09:28:02+08:00	INFO	client: 127.0.0.1  elapsedTime: 52ms name: www.google.com.  recursiveDNS:;; opcode: QUERY, status: NOERROR, id: 32597
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	59	IN	A	31.13.85.2
+
+2024-01-13T09:53:02+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T09:53:02+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T09:53:02+08:00	INFO	http://localhost:8090
+2024-01-13T09:53:07+08:00	INFO	Error:dial udp: address ::1:53: too many colons in address
+2024-01-13T09:53:12+08:00	INFO	Error:dial udp: address ::1:53: too many colons in address
+2024-01-13T09:53:17+08:00	INFO	Error:dial udp: address ::1:53: too many colons in address
+2024-01-13T10:19:21+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T10:19:21+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T10:19:21+08:00	INFO	http://localhost:8090
+2024-01-13T10:20:16+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T10:20:16+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T10:20:16+08:00	INFO	http://localhost:8090
+2024-01-13T10:20:44+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T10:20:44+08:00	INFO	http://localhost:8090
+2024-01-13T10:20:44+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T10:21:33+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T10:21:33+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T10:21:33+08:00	INFO	http://localhost:8090
+2024-01-13T10:21:38+08:00	INFO	localDnsServer: [::1 127.0.0.1] resolved: <nil> MsgHdr
+2024-01-13T10:28:47+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T10:28:47+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T10:28:47+08:00	INFO	http://localhost:8090
+2024-01-13T10:28:51+08:00	INFO	localDnsServer: 172.16.16.31 resolved: ;; opcode: QUERY, status: NOERROR, id: 3513
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	70	IN	A	142.250.66.36
+
+2024-01-13T10:28:56+08:00	INFO	localDnsServer: 172.16.16.31 resolved: ;; opcode: QUERY, status: NOERROR, id: 3513
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	142	IN	A	172.217.24.68
+
+2024-01-13T10:29:01+08:00	INFO	localDnsServer: 172.16.16.31 resolved: ;; opcode: QUERY, status: NOERROR, id: 3513
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	60	IN	A	142.250.66.36
+
+2024-01-13T10:30:08+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 114.114.114.114 output.txt 24h 24h0m0s} {8090 /Users/yubangxu/project/dkdns/httpServer}}
+2024-01-13T10:30:08+08:00	INFO	Starting DNS server at port 53...
+2024-01-13T10:30:08+08:00	INFO	http://localhost:8090
+2024-01-13T10:30:30+08:00	INFO	localDnsServer: 172.16.16.31 resolved: ;; opcode: QUERY, status: NOERROR, id: 47380
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	48	IN	A	172.217.24.68
+
+2024-01-13T10:30:30+08:00	INFO	localDnsServer: [172.16.16.31] resolved: ;; opcode: QUERY, status: NOERROR, id: 47380
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	48	IN	A	172.217.24.68
+
+2024-01-13T10:30:30+08:00	INFO	client: 127.0.0.1  elapsedTime: 45ms name: www.google.com.  recursiveDNS:;; opcode: QUERY, status: NOERROR, id: 47380
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;www.google.com.	IN	 A
+
+;; ANSWER SECTION:
+www.google.com.	73	IN	A	31.13.94.23
+
+2024-01-13T10:30:46+08:00	INFO	localDnsServer: 172.16.16.31 resolved: ;; opcode: QUERY, status: NOERROR, id: 43893
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.baidu.com.	IN	 A
+
+;; ANSWER SECTION:
+www.baidu.com.	646	IN	CNAME	www.a.shifen.com.
+www.a.shifen.com.	19	IN	A	110.242.68.4
+www.a.shifen.com.	19	IN	A	110.242.68.3
+
+2024-01-13T10:30:46+08:00	INFO	localDnsServer: [172.16.16.31] resolved: ;; opcode: QUERY, status: NOERROR, id: 43893
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4000
+
+;; QUESTION SECTION:
+;www.baidu.com.	IN	 A
+
+;; ANSWER SECTION:
+www.baidu.com.	646	IN	CNAME	www.a.shifen.com.
+www.a.shifen.com.	19	IN	A	110.242.68.4
+www.a.shifen.com.	19	IN	A	110.242.68.3
+
+2024-01-13T10:30:46+08:00	INFO	client: 127.0.0.1 elapsedTime: 18ms name: www.baidu.com. localDNS:;; opcode: QUERY, status: NOERROR, id: 43893
+;; flags: qr rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.baidu.com.	IN	 A
+
+2024-01-13T10:31:20+08:00	INFO	client: 127.0.0.1 elapsedTime: 6ms  Cache hit for:www.baidu.com.
+2024-01-13T10:31:21+08:00	INFO	client: 127.0.0.1 elapsedTime: 5ms  Cache hit for:www.baidu.com.
+2024-01-13T10:31:22+08:00	INFO	client: 127.0.0.1 elapsedTime: 3ms  Cache hit for:www.baidu.com.
+2024-01-13T10:31:23+08:00	INFO	client: 127.0.0.1 elapsedTime: 7ms  Cache hit for:www.baidu.com.
+2024-01-13T10:31:24+08:00	INFO	client: 127.0.0.1 elapsedTime: 6ms  Cache hit for:www.baidu.com.
+2024-01-13T10:31:28+08:00	INFO	client: 127.0.0.1 elapsedTime: 3ms  Cache hit for:www.google.com.
+2024-01-13T10:31:31+08:00	INFO	client: 127.0.0.1 elapsedTime: 8ms  Cache hit for:www.google.com.
+2024-01-13T10:31:32+08:00	INFO	client: 127.0.0.1 elapsedTime: 3ms  Cache hit for:www.google.com.
+2024-04-05T21:42:54+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 172.16.10.10 output.txt 24h 24h0m0s} {443 C:\Users\yubx\IdeaProjects\dkdns\httpServer}}
+2024-04-05T21:42:54+08:00	INFO	Starting DNS server at port 53...
+2024-04-05T22:10:47+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 172.16.10.10 output.txt 24h 24h0m0s} {443 C:\Users\yubx\IdeaProjects\dkdns\httpServer}}
+2024-04-05T22:10:47+08:00	INFO	Starting DNS server at port 53...
+2024-04-06T09:38:41+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 /etc/resolv.conf 172.16.10.10 output.txt 24h 24h0m0s} {443 C:\Users\yubx\IdeaProjects\dkdns\httpServer}}
+2024-04-06T09:38:41+08:00	INFO	Starting DNS server at port 53...
+2024-04-06T10:13:46+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 /etc/resolv.conf 172.16.10.10 output.txt 24h 24h0m0s} {443 C:\Users\yubx\IdeaProjects\dkdns\httpServer}}
+2024-04-06T10:13:46+08:00	INFO	Starting DNS server at port 53...
+2024-04-06T10:14:02+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 /etc/resolv.conf 172.16.10.10 output.txt 24h 24h0m0s} {443 C:\Users\yubx\IdeaProjects\dkdns\httpServer}}
+2024-04-06T10:14:02+08:00	INFO	Starting DNS server at port 53
+2024-04-06T10:14:04+08:00	INFO	SysConfig：  &{{file dk_dnslog.log 10} {53 /etc/resolv.conf 172.16.10.10 output.txt 24h 24h0m0s} {443 C:\Users\yubx\IdeaProjects\dkdns\httpServer}}
+2024-04-06T10:14:04+08:00	INFO	Starting DNS server at port 53
